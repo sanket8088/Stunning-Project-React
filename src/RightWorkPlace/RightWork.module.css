@@ -1,0 +1,23 @@
+.RightPlaceContainer{
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.RightImage{
+      margin-right: 200px;
+      height: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+  .RightPlaceContainer{
+    display: block;
+  }
+
+  .RightImage{
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+ 
+}

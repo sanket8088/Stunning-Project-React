@@ -1,0 +1,17 @@
+.WorkPlaceContainer{
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+ .WorkPlaceContainer{
+   display: flex;
+   flex-direction: column;
+ }
+}
+
+@media only screen and (max-width: 900px) {
+ .WorkPlaceContainer{
+   display: flex;
+   flex-direction: column;
+ }
+}

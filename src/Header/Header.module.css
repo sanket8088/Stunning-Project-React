@@ -1,0 +1,57 @@
+
+.HeaderContent{
+  display: flex;
+  padding: 1% 3%;
+}
+
+.ComputerResponsive{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Logo{
+  width: 100px;
+}
+.LogoImage{
+  width: 100%;
+}
+.HamburgerIcon{
+  width: 80px;
+}
+
+.HeaderMenu{
+  display: flex;
+  width:25%;
+  justify-content: space-between;
+  color: darkgray;
+}
+.MenuOptionsOne{
+  font-weight: 900;
+  border-bottom: 3px solid blue;
+  color: black;
+}
+
+
+.AccountButton{
+  background-color: #ffd1dc;
+  padding: 10%;
+    width: 102px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.MobileResponsive{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .ComputerResponsive{
+    display: none;
+  }
+  .MobileResponsive{
+    display: block;
+  }
+}
